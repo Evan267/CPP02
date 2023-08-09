@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 11:47:43 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/28 11:54:16 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 12:28:49 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int	main(void)
 	std::cout << b.getRawBits() << std::endl;
 	std::cout << c.getRawBits() << std::endl;
 
-	return 0;
+	return (0);
 }
