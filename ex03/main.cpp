@@ -23,13 +23,13 @@ int	main(void)
 	Point	e(3, 3);
 	
 	if (bsp(a, b, c, d))
-		std::cout << "Le pont d est bien présent dans le triangle" << std::endl;
+		std::cout << "Le point d est bien présent dans le triangle" << std::endl;
 	else
-		std::cout << "Le pont d n'est pas présent dans le triangle" << std::endl;
+		std::cout << "Le point d n'est pas présent dans le triangle" << std::endl;
 	if (bsp(a, b, c, e))
-		std::cout << "Le pont e est bien présent dans le triangle" << std::endl;
+		std::cout << "Le point e est bien présent dans le triangle" << std::endl;
 	else
-		std::cout << "Le pont e n'est pas présent dans le triangle" << std::endl;
+		std::cout << "Le point e n'est pas présent dans le triangle" << std::endl;
 
 	return 0;
 }
